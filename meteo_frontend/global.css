@@ -1,0 +1,134 @@
+body {
+    min-width: 310px;
+    height: 500px;
+    margin-right: 20px;
+  }
+  h2 {
+    font-family: Arial;
+    font-size: 2.5rem;
+    text-align: center;
+  
+  }
+  .highcharts-data-labels span {
+  width: 100px; 
+  word-break: break-word !important;
+  white-space: normal !important;
+  }
+  .poziom ol {
+  list-style-type: inside;
+  padding-left: auto;
+  display: inline-block;
+  text-align: center;
+  }
+  .table {
+  display: table;   
+  margin: 0 auto;
+  text-align: center;
+  }
+  .poziom li {
+  display: inline;
+  margin-right: 0px; 
+  margin-left: 10px;
+  list-style-position: inside;
+  text-align: center;
+  } 
+  
+  .poziom a { 
+  display: inline-block; 
+  border: 3px solid #9cc2ff; 
+  border-radius: 5px; 
+  padding: 5px 12px 5px 12px;
+  margin-right: 5px; 
+  background-color: #4287F5; 
+  text-decoration:none; 
+  color: #4287F5;
+  text-align: center;
+  } 
+  a:link {
+  color: #edeef0;
+  background-color: #4287f5;
+  text-decoration: none;
+  }
+  
+  a:visited {
+  color: #edeef0;
+  background-color: transparent;
+  text-decoration: none;
+  }
+  
+  a:hover {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  }
+  .zaznacz a {
+  color: green;
+  background-color: lime;
+  border-color: lime;
+  border: 3px solid green;
+  }
+  
+  
+  h4, li, h6 {
+  font-family: Arial;
+  }
+  td,
+  th {
+      border: 1px solid rgb(190, 190, 190);
+      padding: 10px;
+  }
+  
+  td {
+      text-align: center;
+  }
+  
+  tr:nth-child(even) {
+      background-color: #eee;
+  }
+  
+  th[scope="col"] {
+      background-color: #696969;
+      color: #fff;
+  }
+  
+  th[scope="row"] {
+      background-color: #d7d9f2;
+  }
+  
+  caption {
+      padding: 10px;
+      caption-side: bottom;
+  }
+  
+  table {
+      border-collapse: collapse;
+      border: 2px solid rgb(200, 200, 200);
+      letter-spacing: 1px;
+      font-family: sans-serif;
+      font-size: .8rem;
+  }
+  .update {
+    color: gray;
+    text-align: center;
+  }
+input[type=submit] {
+  border: 3px solid #9cc2ff; 
+  border-radius: 5px; 
+  padding: 5px 12px 5px 12px;
+  margin-right: 5px; 
+  background-color: #4287F5; 
+  text-decoration:none; 
+  text-align: center;
+  color: white;
+}
+input[type=submit]:hover {
+    border: 3px solid #4287F5; 
+    border-radius: 5px; 
+    padding: 5px 12px 5px 12px;
+    margin-right: 5px; 
+    background-color: #003a97; 
+    text-decoration:none; 
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
