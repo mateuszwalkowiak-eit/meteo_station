@@ -19,6 +19,17 @@ The project is divided into three main components communicating over Wi-Fi via a
 * **Sensors:** **BME280** (Temperature, Humidity, Barometric Pressure via I2C)  **Sharp GP2Y1010AU0F** (Experimental Optical Dust Sensor / Air Quality monitoring)
 * **Display:** [ESP32 Cheap Yellow Display (CYD)](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display)
 
+## 📸 Hardware Showcase
+
+### Sensor Node (Exterior)
+![Sensor Node Exterior](img/outside.jpg)
+
+### Inside the Device
+![Inside the Device](img/interior.jpg)
+
+### Client Display (CYD)
+![Client Display (CYD)](img/display.jpg)
+
 ## 💻 Software Stack & Technologies
 
 * **Embedded:** C/C++, Arduino IDE, I2C communication, Analog signal processing
